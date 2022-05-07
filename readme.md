@@ -16,3 +16,8 @@
 
 ## 📁 기타 문서
 - [공부중](ETC/mult-thread-event-loop.md)
+
+## 🎤 발표자료
+- [BTree](https://www.slideshare.net/dana238767/b-tree-index-250127455)
+- [webSocket](https://www.slideshare.net/dana238767/websocket-250210076)
+
