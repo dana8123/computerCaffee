@@ -41,3 +41,31 @@
     - 예약 인스턴스 : 일정 기간동안 서버를 끄지 않고 계속 사용하는 옵션
         - 예약 인스턴스는 온디맨드 인스턴스 요금에 비해 상당한 할인 혜택(최대 72%)을 제공합니다.
     - 스팟 인스턴스 : 아마존 웹서비스 내의 노는 인스턴스가 많아지면, 가격이 저렴해지고 그렇지 않을 때는 비싸지는..아니 뭐 ..주식이야..?
+- 장치 설정
+    - shutdwon behavior : ec2 인스턴스 내 shutdown 했을 때, 일시정지 할 것인가 삭제 할 것인가
+    - termiation protection : 인스턴스 삭제 방지
+    - Monitoring : 인스턴스의 상태(cpu 점유율, 메모리 사용율 등을 그래프로 저장해 둠, 추가비용 발생)
+    - Add storage
+        - Size: 저장 장치의 크기
+        - Volume Type: SSD, Magnetic...
+        - Delete on Termination : 체크 해제 시 저장장치와 컴퓨터가 분리되어 폐기되는 상태
+- 태그
+    - 인스턴스에 대한 정보를 저장
+        - {Name: web server, manager: 김연재, type:real } 과 같이 인스턴스에 대한 설명
+- 보안그룹
+    - 인스턴스에 접근하는 보안에 대해 지정하는 항목
+        - 어떤 방식의 접속만 허용하는지, 어떤 사람이 접근하는것을 허용하는지
+    -  Type: ssh, http, https, ... 
+        - 인스턴스에 접속하는 방법(원격 제어, FTP..) 중 제한된 방법들로만 접속하는 것을 허용하는 것)
+        - ```SSH``` : 리눅스 인스턴스 원격제어 방식
+            - source : (Anywhere : 모든 컴퓨터의 접속 허용, MY ip : 내 아이피만, custom Ip: 특정한 ip) 
+        - ```HTTP``` : 웹 서버로 사용되는 인스턴스에 대해, 웹 브라우저로 접속할 수 있도록 하는 것(Anywhere 옵션)
+        - ```RDP``` : 윈도우 인스턴스 원격제어 방식
+- Review Instance Launch
+    - create a new key pair
+        - 인스턴스에 네트워크를 통해 접속할 때 사용할 비밀번호를 지정하는 것
+
+## EC2 인스턴스 접속
+- pem key를 다른 사용자가 읽는 것을 막기위해 ```chmod 400 aws_pawd.pem``` 설정을 해 줌
+    - 이 파일의 소유자만 이 파일을 읽을 수 있음
+- ```"aws_pwd.pem" ubuntu@instance Ip``` 명령어로 접속
