@@ -18,7 +18,8 @@
 ## [📁 기타 문서](ETC/)
 - [공부중](ETC/mult-thread-event-loop.md)
 - [AWS](AWS/readme.md)
-- [mongoAtlas로 마이그레이션](ETC/mongoDBmigration.md)
+- [mongoDB 마이그레이션](ETC/mongoDBmigration.md)
+- [LINUX](LINUX/readme.md)
 
 ## 🎤 발표자료
 - [BTree](https://www.slideshare.net/dana238767/b-tree-index-250127455)
