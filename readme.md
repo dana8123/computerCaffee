@@ -17,6 +17,7 @@
 
 ## [📁 기타 문서](ETC/)
 - [공부중](ETC/mult-thread-event-loop.md)
+- [concurrency-control](ETC/concurrency-control.md)
 - [AWS](AWS/readme.md)
 - [mongoDB 마이그레이션](ETC/mongoDBmigration.md)
 - [LINUX](LINUX/readme.md)
