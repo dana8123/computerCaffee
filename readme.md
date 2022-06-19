@@ -23,6 +23,11 @@
 - [mongoDB 마이그레이션](ETC/mongoDBmigration.md)
 - [LINUX](LINUX/readme.md)
 
+## [💻 CS](https://grizzly-ulna-184.notion.site/CS-168222fc602c4730a19ea85589304a2a)
+- [프로세스와 스레드](https://grizzly-ulna-184.notion.site/6b863174791a489980ea98d53bdd9314)
+- [인덱스란?](https://grizzly-ulna-184.notion.site/DB-8f881e721a7845b993fc87a136d48ca8)
+
+
 ## 🎤 발표자료
 - [BTree](https://www.slideshare.net/dana238767/b-tree-index-250127455)
 - [webSocket](https://www.slideshare.net/dana238767/websocket-250210076)
