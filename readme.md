@@ -13,7 +13,7 @@
 ## [📗 BOOK](BOOK/)
 - [비전공자를 위한 이해할 수 있는 IT 지식](BOOK/to_no_it.md)
 - [CODE](BOOK/CODE.md)
-- [node.js_디자인패턴_바이블](BOOK/node.js_%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4_%EB%B0%94%EC%9D%B4%EB%B8%94.md)
+- [node.js_디자인패턴_바이블](https://grizzly-ulna-184.notion.site/Node-js-b8aae83c3bc34b7fb04f224056ae9314)
 
 ## [📁 기타 문서](ETC/)
 - [Elastic search](ETC/ElasticSearch/)
