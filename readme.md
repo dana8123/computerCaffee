@@ -28,6 +28,7 @@
 ## [💻 CS](https://grizzly-ulna-184.notion.site/CS-168222fc602c4730a19ea85589304a2a)
 - [프로세스와 스레드](https://grizzly-ulna-184.notion.site/6b863174791a489980ea98d53bdd9314)
 - [인덱스란?](https://grizzly-ulna-184.notion.site/DB-8f881e721a7845b993fc87a136d48ca8)
+- [데이터베이스의 원리와 응용 강의](https://grizzly-ulna-184.notion.site/cbe0896ac145481ea6680241353c025c)
 
 
 ## 🎤 발표자료
