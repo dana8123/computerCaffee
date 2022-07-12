@@ -30,6 +30,8 @@
 - [인덱스란?](https://grizzly-ulna-184.notion.site/DB-8f881e721a7845b993fc87a136d48ca8)
 - [데이터베이스의 원리와 응용 강의](https://grizzly-ulna-184.notion.site/cbe0896ac145481ea6680241353c025c)
 
+## [MONGODB](/MONGO/)
+- [aggregation](./MONGO//%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%9C%20mongoDB%20Aggregation%20%EA%B0%80%EC%9D%B4%207bb26f2a315544a9bb19779a0d5916cf.md)
 
 ## 🎤 발표자료
 - [BTree](https://www.slideshare.net/dana238767/b-tree-index-250127455)
